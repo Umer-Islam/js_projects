@@ -2,8 +2,22 @@
   text-align: center;
 }
 
+.ol {
+  list-style-type: none;
+  font-size: 2rem;
+}
 
-ol{
-
-    
+li {
+  text-align: center;
+}
+a {
+  color: rgb(160, 92, 3);
+}
+#list-container {
+  width: 90%;
+  height: auto;
+  border: rgb(105, 102, 102) solid 1px;
+  box-shadow: yellow;
+  margin: 0 auto;
+  border-radius: 9px;
 }
