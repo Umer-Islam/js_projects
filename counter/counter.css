@@ -1,0 +1,30 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button {
+  padding: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+  background-color: aquamarine;
+  margin: 2px;
+}
+
+#increaseBtn:hover {
+  background-color: aqua;
+}
+#decreaseBtn:hover {
+  background-color: hsl(0, 44%, 41%);
+}
+#resetBtn:hover {
+  background-color: rgb(75, 90, 90);
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
