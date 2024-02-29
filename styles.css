@@ -1,7 +1,10 @@
 .heading1 {
   text-align: center;
 }
-
+#mode {
+  margin-left: 90%;
+  cursor: pointer;
+}
 .ol {
   list-style-type: none;
   font-size: 2rem;
@@ -21,4 +24,5 @@ a {
   box-shadow: yellow;
   margin: 0 auto;
   border-radius: 9px;
+  background-color: rgb(189, 183, 175);
 }
