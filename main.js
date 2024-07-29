@@ -1,7 +1,7 @@
 console.log("js connected");
 
-mode = document.getElementById("modedark");
-body = document.getElementById("body");
+let mode = document.getElementById("modedark");
+let body = document.getElementById("body");
 mode.onclick = function () {
   body.style.backgroundColor = "gray";
   mode.textContent = "";
