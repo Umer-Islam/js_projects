@@ -1,1 +1,1 @@
-A directory to store all js projects.
+A repo to showcase all js projects.
