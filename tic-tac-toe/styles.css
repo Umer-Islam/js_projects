@@ -1,14 +1,19 @@
-
-.box{
-width: 5rem;
-height: 5rem;
-border: .066rem solid black;
-box-shadow: 0 0 0 .1rem;
-   
+.box {
+  width: 5rem;
+  height: 5rem;
+  border: 0.066rem solid black;
+  box-shadow: 0 0 0 0.1rem;
+  line-height: 5rem;
+  font-size: 4.5rem;
+  cursor: pointer;
 }
-.boxes{
-    display: grid;
-    grid-template-columns: repeat(3,auto);
-    width:5rem;
-    margin: auto;
+.gameContainer {
+  font-family: cursive, fantasy;
+  text-align: center;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 5rem;
+  margin: auto;
 }
