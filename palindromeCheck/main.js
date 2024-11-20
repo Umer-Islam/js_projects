@@ -6,6 +6,8 @@ function palindrome(input) {
 
 document.getElementById("myForm").addEventListener("submit", function (event) {
   event.preventDefault();
+  document.getElementById("compare").innerText = ` `;
+
   //   console.log(userInput.value);
   //   console.log(typeof userInput);
   //   console.log(typeof palindrome(userInput.value));
