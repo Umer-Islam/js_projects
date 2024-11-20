@@ -10,23 +10,39 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
   //   console.log(typeof userInput);
   //   console.log(typeof palindrome(userInput.value));
   if (userInput.value.length < 3) {
-    document.getElementById("output").innerText = "add more than 2 characters";
+    document.getElementById("main").style.backgroundColor = "white";
+
+    document.getElementById("output").innerText =
+      "😡add more than 2 characters😡";
+
     document.getElementById("output").style.color = "red";
-  } else if (userInput.value.toLowerCase() == palindrome(userInput.value).toLowerCase()) {
+    document.getElementById("output").style.fontSize = "2rem";
+  } else if (
+    userInput.value.toLowerCase() == palindrome(userInput.value).toLowerCase()
+  ) {
+    document.getElementById("main").style.backgroundColor = "white";
+
     // console.log(palindrome(userInput.value));
 
     document.getElementById("compare").innerText = `${
       userInput.value
     }⬅️➡️  ${palindrome(userInput.value).toLowerCase()}`;
 
-    document.getElementById("output").innerText = "palindrome";
-    document.getElementById('output').style.color = "green"
-  } else if (userInput.value.toLowerCase() != palindrome(userInput.value.toLowerCase())) {
+    document.getElementById("output").innerText = "Palindrome";
+    // document.getElementById('output').style.color = "green"
+    document.getElementById("main").style.backgroundColor = "green";
+  } else if (
+    userInput.value.toLowerCase() != palindrome(userInput.value.toLowerCase())
+  ) {
+    document.getElementById("main").style.backgroundColor = "white";
+
     document.getElementById("compare").innerText = `${
       userInput.value
     }⬅️➡️  ${palindrome(userInput.value)}`;
 
     document.getElementById("output").innerText = "NOT palindrome";
+    // document.getElementById("output").style.color = "red";
+    document.getElementById("main").style.backgroundColor = "red";
   }
 });
 
